@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent admin
     tools {
         maven "MavenInstall"
         jdk "JDK"
