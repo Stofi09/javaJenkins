@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir("/var/lib/jenkins/workspace/javademopipeline/javaJenkins") {
-                sh 'mvn -B -DskipTests clean package'
+                sh 'sudo mvn -B -DskipTests clean package'
                 }
             }
         }
