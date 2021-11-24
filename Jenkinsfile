@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Initialize'){
             steps{
-                echo "PATH = ${M2_HOME}/bin:${PATH}"
+                echo "PATH = /usr/lib/jvm$ cd java-11-openjdk-amd64/"
                 echo "M2_HOME = /opt/maven"
             }
         }
